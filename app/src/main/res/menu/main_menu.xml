@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_signIn"
+        android:title="@string/sign_in"
+        app:showAsAction="always"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="101"/>
+    <item
+        android:id="@+id/action_displayAll"
+        android:title="@string/display_all"
+        app:showAsAction="never"
+        android:orderInCategory="102"/>
+    <item
+        android:id="@+id/action_chooseCategory"
+        android:title="@string/choose_a_category"
+        app:showAsAction="never"
+        android:orderInCategory="103"/>
+    <item
+        android:id="@+id/action_export"
+        android:title="@string/export"
+        app:showAsAction="never"
+        android:orderInCategory="105"/>
+    <item
+        android:id="@+id/action_import"
+        android:title="@string/importt"
+        app:showAsAction="never"
+        android:orderInCategory="106"/>
+
+</menu>
